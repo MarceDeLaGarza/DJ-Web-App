@@ -1,0 +1,72 @@
+.heading
+{
+    font-size: 24px;
+    width: 100%;
+    margin: 0px;
+    background-color: #540D6E;
+    color: #FFD23F
+}
+.heading:hover
+{
+    background-color: #EE4266;
+    color: #1F271B
+}
+.nota{
+    font-size: 16px;
+    color: #F3FCF0;
+    white-space: pre-line;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: #1F271B;
+}
+body{
+    background-size: cover;
+}
+.div_vel
+{
+    float: left;
+}
+.div_vel_img, .div_vol_img{
+    width: 160px;
+    border-radius: 100px;
+    box-shadow: 5px 8px 8px 5px black;
+}
+.div_vel_img2, .div_vol_img2{
+    width: 200px;
+    border-radius: 100px;
+    box-shadow: 5px 8px 8px 5px black;
+}
+#velocidad, #volumen{
+    font-size: 20px;
+    margin: 15px;
+    background-color: #EE4266;
+    width: 250px;
+}
+.div_vol
+{
+    float: right;
+}
+.play_button, .pause_button, .stop_button{
+    background-color: #FFD23F;
+    color:#1f271b;
+    font-size: 20px;
+    margin: 15px;
+    width: 200px;
+}
+.play_button:hover, .stop_button:hover{
+    background-color: #540D6E;
+    color: #F3FCF0;
+}
+canvas{
+    border: 5px solid #f3fcf0;
+    border-radius: 20px;
+    margin-top: -200px;
+    box-shadow: 5px 5px 5px #FFD23F;
+}
+#cancion{
+    background-color: #540D6E;
+    color:#F3FCF0;
+    font-size: 20px;
+}
